@@ -1,0 +1,17 @@
+---
+titile: "My second page"
+---
+
+```{r}
+pacman::p_load(reactable)
+```
+
+
+```{r}
+reactable(iris)
+```
+
+```{r}
+plot(iris)
+```
+
