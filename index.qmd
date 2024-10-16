@@ -1,0 +1,17 @@
+---
+titile: "My first page"
+---
+
+```{r}
+pacman::p_load(reactable)
+```
+
+
+```{r}
+reactable(infert)
+```
+
+```{r}
+plot(women)
+```
+
